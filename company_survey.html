@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title>Nintendo Survey--Leung</title>
+<style type="text/css">
+
+html
+	{
+	font-family:arial;
+	font-size:12pt;
+	color:#000000;
+	}
+
+fieldset
+	{
+	width:570px;
+	margin:auto;
+	border:5px solid #ff0000;
+	}
+
+legend
+	{
+	font-size:24pt;
+	font-family:verdana;
+	color:#555555;
+	}
+
+.field
+	{
+	margin-bottom:5px;
+	}
+
+.label
+	{
+	float:left;
+	width:200px;
+	}
+
+</style>
+</head>
+
+
+
+<body>
+<form>
+	<fieldset>
+		<legend>Nintendo Survey</legend>
+	<div class="field">
+		<label class="label">Favorite Nintendo game?</label>
+		<input maxLength="25" size="25" name="fav" />
+	</div>
+
+	<div class="field">
+		<label class="label">Favorite Nintendo console?</label>
+		<input maxLength="25" size="25" name="console" />
+	</div>
+
+	<div class="field">
+		<label class="label">Favorite game genre?</label>
+		<select name="genre">
+			<option>--Select one--</option>
+			<option>Platformers</option>
+			<option>Adventure</option>
+			<option>Shooter</option>
+			<option>Fighting</option>
+		</select>
+	</div>
+
+	<div class="field">
+		<label class="label">What's your age?</label>
+		<select name="age">
+			<option>--Select one--</option>
+			<option>8-12</option>
+			<option>13-19</option>
+			<option>20-25</option>
+			<option>25+</option>
+		</select>
+	</div>
+
+	<p>Are you:
+	<input type="radio" name="sex" value="male"/> Male
+	<input type="radio" name="sex" value="female"/> Female
+	</p>
+
+	<p>What are some suggestions you have for Nintendo? <br />
+	<textarea name="comments" rows="5" cols="60"></textarea>
+	</p>
+
+	<p>What are your favorite Nintendo franchises? <br />
+	<input type="checkbox" name="game" value="mario"/>Mario
+	<input type="checkbox" name="game" value="zelda"/>The Legend of Zelda
+	<input type="checkbox" name="game" value="pokemon"/>Pokemon
+	<input type="checkbox" name="game" value="metroid"/>Metroid
+	<input type="checkbox" name="game" value="smash"/>Super Smash Bros.
+	</p>
+
+	<p>
+	<label>If there was a franchise that wasn't listed above,
+	type it in the box below.</label>
+	<input maxLength="25" size="25" name="other" />
+	</p>
+
+	<p>Do you prefer handheld or home consoles?
+	<input type="radio" name="console" value="hand"/> Handheld
+	<input type="radio" name="console" value="home"/> Home
+	</p>
+
+	<p>Which of these games do you like best?
+	<select name=food> <option>--Select one--</option>
+		<optgroup label="Mario">
+			<option>Super Mario Galaxy</option>
+			<option>Super Mario Maker</option>
+		</optgroup>
+
+		<optgroup label="The Legend of Zelda">
+			<option>Skyward Sword</option>
+			<option>Link to the Past</option>
+			<option>Ocarina of Time</option>
+		</optgroup>
+	</select>	
+	</p>
+
+	<p style=text-align:center>
+		<input type=submit value="Submit the Form" />
+		<input type=reset value="Reset the Form" />
+	</p>
+
+	</fieldset>
+
+</form>
+</body>
+</html>
